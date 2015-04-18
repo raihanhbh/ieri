@@ -1,0 +1,20 @@
+(function(doc, script) {
+    var js, 
+        fjs = doc.getElementsByTagName(script)[0],
+        add = function(url, id) {
+            if (doc.getElementById(id)) {return;}
+            js = doc.createElement(script);
+            js.src = url;
+            id && (js.id = id);
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    ob_util.ckW('_SI_VID.a1b97edc1a72ab1252ed75a4241a657d','5e914be11f7c377dd6a6b9e4','/','.sas.com',1492242355007);
+ob_util.sckW('_SI_SID.a1b97edc1a72ab1252ed75a4241a657d','0c7b869d63d366128ceddf61','/','.sas.com',1429170355007);
+ob_util.newsid = true;
+ob_util.oldsid = "45bba161fad316128b99c8cb";
+
+    if ((null!=ob_util.ckR('_SI_VID.a1b97edc1a72ab1252ed75a4241a657d')) && (null==ob_util.ckR('_SI_DNT'))) {
+       add('//ots.sas.com/t/s/c/a1b97edc1a72ab1252ed75a4241a657d/'+new Date().getTime()+'?p='+encodeURIComponent(ob_util.parseUri(document.URL).path)+'&domain='+document.domain+'&params='+encodeURIComponent(ob_util.parseUri(document.URL).search));
+    }
+      
+}(document, 'script'));

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body>
+    <script async="" src="satellite-54c7f0ba34663700150b0500_data/bat.js"></script><script>
+      (function(){
+        function parseQueryString(){
+          var ret = {}, parts = location.search.substring(1).split('&');
+          for (var i = parts.length; i--;) {
+            var vardef = parts[i].split('='), varname = vardef[0], value = vardef[1];
+            ret[varname] = value;
+          }
+          return ret;
+        }
+        var queryParams = parseQueryString();
+
+        var markup = "<script>\n  (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:\"4014744\"};o.q=w[u],w[u]=new UET(o),w[u].push(\"pageLoad\")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!==\"loaded\"&&s!==\"complete\"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,\"script\",\"//bat.bing.com/bat.js\",\"uetq\");\n</scr"+"ipt>";
+
+        for (var name in queryParams){
+          var regex = new RegExp('%' + name.replace('.', '\.') + '%', 'ig');
+          markup = markup.replace(regex, queryParams[name]);
+        }
+
+        document.write(markup)
+      })();
+    </script><script>
+  (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"4014744"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+</script>
+  
+
+<div id="batBeacon0.7672996064164895" style="width:0px; height:0px; display:none; visibility:hidden;"><img src="satellite-54c7f0ba34663700150b0500_data/0.txt" id="batBeacon0.08158622582697683" style="width:0px; height:0px; display:none; visibility:hidden;" height="0" width="0"><img src="satellite-54c7f0ba34663700150b0500_data/0_002.txt" id="batBeacon0.23130671998872343" style="width:0px; height:0px; display:none; visibility:hidden;" height="0" width="0"></div></body></html>

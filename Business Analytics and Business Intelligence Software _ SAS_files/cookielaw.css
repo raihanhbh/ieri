@@ -1,0 +1,67 @@
+#cookiealert {
+display: none;
+background-color: #333;
+background-image: linear-gradient(bottom, rgb(23,23,23) 1%, rgb(71,71,71) 14%, rgb(66,65,66) 88%);
+background-image: -o-linear-gradient(bottom, rgb(23,23,23) 1%, rgb(71,71,71) 14%, rgb(66,65,66) 88%);
+background-image: -moz-linear-gradient(bottom, rgb(23,23,23) 1%, rgb(71,71,71) 14%, rgb(66,65,66) 88%);
+background-image: -webkit-linear-gradient(bottom, rgb(23,23,23) 1%, rgb(71,71,71) 14%, rgb(66,65,66) 88%);
+background-image: -ms-linear-gradient(bottom, rgb(23,23,23) 1%, rgb(71,71,71) 14%, rgb(66,65,66) 88%);
+position: relative;
+top:0px;
+z-index:100000;
+width: 100%;
+text-align: center;
+font-size: 12px;
+padding: 10px 0;
+}
+
+
+.alert h2, .alertgreen h2 {
+    display: inline-block;
+    background: url(cookielaw/images/icons/alert.png) no-repeat left 50%;
+    line-height: 25px;
+    padding: 13px 0 13px 30px;
+    font-size: 14px;
+    text-transform: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0; 
+    *display: inline;
+ }
+
+.alertgreen h2 { background: url(cookielaw/images/icons/alertgreen.png) no-repeat left 50%; }
+
+.alert button
+{
+background: #e95a11;
+border: 1px #c05815 solid;
+-moz-border-radius: 3px; 
+-webkit-border-radius: 3px; 
+-ms-border-radius: 3px;
+border-radius: 3px;
+color: white;
+font-weight: bold;
+text-shadow: 1px -1px 0 #c05815;
+cursor: pointer;
+padding: 2px 6px 3px;
+margin: 0 10px;
+}
+
+.alertgreen button { display: none; }
+
+#cookiealert button:hover { background: #ff751a; }
+#cookiealert a { padding: 0 15px; font-size: 12px; color: white; text-decoration: underline; }
+
+/* Begin override */
+#PageTools {
+    position: relative;
+    float: right;
+    width: 30%;
+    top: 10px;
+    margin-top: -32px;
+    margin-top: 0\0/; /* IE 8 */
+    text-align: right;
+}
+#sectionHead h2 { display: inline; }
+#sectionHead h2 object { margin: 5px 0 0 0; }
+/* End override */

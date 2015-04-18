@@ -1,0 +1,306 @@
+# Masonic WordPress Theme. Translation template file.
+# This file is distributed under the same license as the Masonic Theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Masonic\n"
+"POT-Creation-Date: 2015-02-10 12:20+0545\n"
+"PO-Revision-Date: 2015-02-10 12:20+0545\n"
+"Last-Translator: \n"
+"Language-Team: ThemeGrill <themegrill@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Perhaps a search may help "
+"you."
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:19 content-single.php:32 content.php:40
+msgid "Pages:"
+msgstr ""
+
+#: content.php:44
+msgid "Read more"
+msgstr ""
+
+#: footer.php:42
+msgid "&copy; "
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:86
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:95
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: functions.php:104
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: functions.php:113
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#: functions.php:178
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:180
+msgid "ThemeGrill"
+msgstr ""
+
+#: functions.php:182
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: functions.php:182
+#, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-header.php:35
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:85 inc/customizer.php:96
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Add your custom css here and design live! (for advanced users)"
+msgstr ""
+
+#: inc/extras.php:56
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:89
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr ""
+
+#: inc/extras.php:92
+#, php-format
+msgid "Follow %s on Google+"
+msgstr ""
+
+#: inc/extras.php:95
+#, php-format
+msgid "Follow %s on Facebook"
+msgstr ""
+
+#: inc/extras.php:118 inc/template-tags.php:135
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/extras.php:126 inc/template-tags.php:141
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/extras.php:129 inc/template-tags.php:139
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/extras.php:132 inc/template-tags.php:137
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/extras.php:135 inc/template-tags.php:149 sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: inc/extras.php:140
+msgid "404: Page Not Found"
+msgstr ""
+
+#: inc/extras.php:142
+msgid "Search Results For: "
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts <span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgctxt "Previous post link"
+msgid "<span><i class=\"fa fa-arrow-circle-o-left\"></i></span>%title"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgctxt "Next post link"
+msgid "%title<span><i class=\"fa fa-arrow-circle-o-right\"></i></span>"
+msgstr ""
+
+#: inc/template-tags.php:80
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:91 inc/template-tags.php:105
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "No Comment"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:109
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: inc/template-tags.php:131
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:133
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:137
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:139
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:141
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:143
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:147
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgid "Type and hit enter..."
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""

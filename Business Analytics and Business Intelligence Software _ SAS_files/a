@@ -1,0 +1,7 @@
+handleProfileCookies(function() {
+jQuery.removeCookie('ep_iPlanetDirectoryPro', {domain :'null', path : '/' });
+jQuery.removeCookie('ep_DProPCookie', {domain :'null', path : '/' });
+jQuery.removeCookie('ep_amlbcookie', {domain :'null', path : '/' });
+jQuery.removeCookie('SASUserDisplayName', {domain :'null', path : '/' });
+Profile.displayLoginBar();
+})

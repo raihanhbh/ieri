@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body>
+    <script src="satellite-54e4b1993062380016ed0000_data/insight.js" async="" type="text/javascript"></script><script>
+      (function(){
+        function parseQueryString(){
+          var ret = {}, parts = location.search.substring(1).split('&');
+          for (var i = parts.length; i--;) {
+            var vardef = parts[i].split('='), varname = vardef[0], value = vardef[1];
+            ret[varname] = value;
+          }
+          return ret;
+        }
+        var queryParams = parseQueryString();
+
+        var markup = "<script type=\"text/javascript\">   _bizo_data_partner_id = \"7178\"; </scr"+"ipt> <script type=\"text/javascript\"> (function() {   var s = document.getElementsByTagName(\"script\")[0];   var b = document.createElement(\"script\");   b.type = \"text/javascript\";   b.async = true;   b.src = (window.location.protocol === \"https:\" ? \"https://sjs\" : \"http://js\") + \".bizographics.com/insight.min.js\";   s.parentNode.insertBefore(b, s); })(); </scr"+"ipt> <noscript>   <img height=\"1\" width=\"1\" alt=\"\" style=\"display:none;\" src=\"//www.bizographics.com/collect/?pid=7178&fmt=gif\" /> </noscript>";
+
+        for (var name in queryParams){
+          var regex = new RegExp('%' + name.replace('.', '\.') + '%', 'ig');
+          markup = markup.replace(regex, queryParams[name]);
+        }
+
+        document.write(markup)
+      })();
+    </script><script type="text/javascript">   _bizo_data_partner_id = "7178"; </script> <script type="text/javascript"> (function() {   var s = document.getElementsByTagName("script")[0];   var b = document.createElement("script");   b.type = "text/javascript";   b.async = true;   b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";   s.parentNode.insertBefore(b, s); })(); </script> <noscript>   <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=7178&fmt=gif" /> </noscript>
+  
+
+<script type="text/javascript" src="satellite-54e4b1993062380016ed0000_data/a"></script><img style="display: none;" alt="" src="satellite-54e4b1993062380016ed0000_data/l.gif" border="0" height="1" width="1"></body></html>

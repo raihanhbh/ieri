@@ -1,0 +1,162 @@
+_ob_configure.prototype.ob_cfg = function()
+{
+   this.ccs='//ots.sas.com/t/e/a1b97edc1a72ab1252ed75a4241a657d';
+   this.timeout=2500;
+   this.load_guid = '39f514a89200fd2b26286774';
+}
+_ob_configure.prototype.getVisitorId = function()
+{
+    return ob_util.ckR('_SI_VID.a1b97edc1a72ab1252ed75a4241a657d');
+}
+_ob_configure.prototype.getDatahubId = function()
+{
+    return ob_util.ckR('_SI_VID.a1b97edc1a72ab1252ed75a4241a657d');
+}
+_ob_configure.prototype.getSessionId = function()
+{
+    var v= ob_util.ckR('_SI_SID.a1b97edc1a72ab1252ed75a4241a657d');
+    return v.split('.')[0];
+}
+ob_event.prototype.termConfiguration = function()
+{
+    var terms = {};
+
+    terms['global'] = {};
+    terms['find'] = {};
+    terms['load'] = {};
+    terms['DOMContentLoaded'] = {};
+    terms['click'] = {};
+    terms['exclude'] = {};
+    terms['blur'] = {};
+    terms['change'] = {};
+    terms['cart'] = {};
+
+terms['global']['page_title'] = document.title;
+terms['global']['referrer'] = document.referrer;
+terms['global']['uri'] = document.URL;
+terms['global']['requestedfile'] = ob_util.parseUri(document.URL).path;
+
+terms['load']['tzo'] = new Date().getTimezoneOffset();
+terms['load']['platform'] = navigator.platform;
+terms['load']['cpu'] = navigator.cpuClass;
+terms['load']['port'] = location.port;
+terms['load']['protocol'] = ob_util.location();
+terms['load']['flash_enabled'] = ob_util.flash().e;
+terms['load']['flash_version'] = ob_util.flash().v;
+terms['load']['javascript_enabled'] = true;
+terms['load']['java_enabled'] = ob_util.java().e;
+terms['load']['java_version'] = ob_util.java().v;
+terms['load']['screen_info'] = screen.width + 'x' + screen.height + '@' + screen.colorDepth;
+if (!ob_util.isUndefined(document.body.parentNode.attributes['lang'])&&(null!=document.body.parentNode.attributes['lang'])) terms['load']['html.lang'] = document.body.parentNode.attributes['lang'].nodeValue;
+if (!ob_util.isUndefined(document.body.parentNode.attributes['xml:lang'])&&(null!=document.body.parentNode.attributes['xml:lang'])) terms['load']['html.xml:lang'] = document.body.parentNode.attributes['xml:lang'].nodeValue;
+terms['load']['browser_language'] = !ob_util.isUndefined(navigator.language) ? navigator.language : navigator.browserLanguage;
+terms['load']['character_set'] = ob_util.isUndefined(document.charset)?document.characterSet:document.charset;
+terms['load']['csz'] = document.documentElement.outerHTML.length;
+terms['load']['bsz'] = window.innerWidth + 'x' + window.innerHeight;
+
+terms['DOMContentLoaded']['tzo'] = new Date().getTimezoneOffset();
+terms['DOMContentLoaded']['platform'] = navigator.platform;
+terms['DOMContentLoaded']['cpu'] = navigator.cpuClass;
+terms['DOMContentLoaded']['port'] = location.port;
+terms['DOMContentLoaded']['protocol'] = ob_util.location();
+terms['DOMContentLoaded']['flash_enabled'] = ob_util.flash().e;
+terms['DOMContentLoaded']['flash_version'] = ob_util.flash().v;
+terms['DOMContentLoaded']['javascript_enabled'] = true;
+terms['DOMContentLoaded']['java_enabled'] = ob_util.java().e;
+terms['DOMContentLoaded']['java_version'] = ob_util.java().v;
+terms['DOMContentLoaded']['screen_info'] = screen.width + 'x' + screen.height + '@' + screen.colorDepth;
+if (!ob_util.isUndefined(document.body.parentNode.attributes['lang'])&&(null!=document.body.parentNode.attributes['lang'])) terms['DOMContentLoaded']['html.lang'] = document.body.parentNode.attributes['lang'].nodeValue;
+if (!ob_util.isUndefined(document.body.parentNode.attributes['xml:lang'])&&(null!=document.body.parentNode.attributes['xml:lang'])) terms['DOMContentLoaded']['html.xml:lang'] = document.body.parentNode.attributes['xml:lang'].nodeValue;
+terms['DOMContentLoaded']['browser_language'] = !ob_util.isUndefined(navigator.language) ? navigator.language : navigator.browserLanguage;
+terms['DOMContentLoaded']['character_set'] = ob_util.isUndefined(document.charset)?document.characterSet:document.charset;
+terms['DOMContentLoaded']['csz'] = document.documentElement.outerHTML.length;
+terms['DOMContentLoaded']['bsz'] = window.innerWidth + 'x' + window.innerHeight;
+
+
+    return terms;
+}
+ob_injector.prototype.getSpotDefinitions = function()
+{
+   var m = {};
+
+
+
+    return m;
+}
+_ob_cart_configuration.prototype.getCartConfig = function()
+{
+   var cart = {};
+
+
+
+    return cart;
+}
+_ob_cart_configuration.prototype.getCheckoutConfig = function()
+{
+   var cart = {};
+
+
+
+    return cart;
+}
+_ob_cart_configuration.prototype.getPurchaseConfig = function()
+{
+   var cart = {};
+
+
+
+    return cart;
+}
+_ob_jsvar_configuration.prototype.getConfig = function()
+{
+    var jsVars = {};
+
+jsVars['page_id'] = 'null';
+
+    return jsVars;
+}
+_ob_jsvarchange_configuration.prototype.getConfig = function()
+{
+    var jsChangeVars = {};
+
+    return jsChangeVars;
+}
+_ob_contentvisible_configuration.prototype.getConfig = function()
+{
+    var contentVars = {};
+
+
+    return contentVars;
+}
+_ob_configure.prototype.isCollectionEnabled = function()
+{
+   var collect = {};
+
+
+collect['clicks'] = 'true';
+collect['contentevents'] = 'true';
+collect['fieldinteractions'] = 'true';
+collect['formsubmits'] = 'true';
+collect['jsvars'] = 'true';
+collect['media'] = 'true';
+collect['mouseovers'] = 'false';
+collect['pageloads'] = 'true';
+
+
+    return collect;
+}
+_ob_configure.prototype.getFormConfig = function()
+{
+   var ff = {};
+
+   ff['obs'] = [];
+
+   ff['ign'] = [];
+
+
+
+
+    return ff;
+}
+
+ob_configure.initialize();
